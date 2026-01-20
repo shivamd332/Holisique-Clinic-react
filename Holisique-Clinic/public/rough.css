@@ -1,0 +1,187 @@
+/* * {
+  font-family: "Poppins",
+    sans-serif;
+}
+
+.register-container {
+  position: relative;
+  width: 1728px;
+  height: 1140px;
+  display: flex;
+  background: #ffffff;
+  margin: 0 auto;
+}
+
+.register-left {
+  position: absolute;
+  width: 1345px;
+  height: 1215px;
+  top: -49px;
+  left: -672px;
+  background: #440001;
+  border-radius: 50%;
+}
+
+.welcome-text {
+  position: absolute;
+  top: 49px;
+  left: 742px;
+  width: 244px;
+  height: 75px;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: #9C0001;
+}
+
+.subtitle-text {
+  position: absolute;
+  top: 124px;
+  left: 742px;
+  width: 328px;
+  height: 30px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  color: #000000;
+}
+
+.name-field {
+  position: absolute;
+  top: 183px;
+  left: 753px;
+  width: 822px;
+  height: 96px;
+  border-radius: 12px;
+}
+
+.field-label {
+  position: absolute;
+  top: 0;
+  left: 14.3px;
+  width: 148.67px;
+  height: 30px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: #000000;
+}
+
+.field-input {
+  position: absolute;
+  top: 36px;
+  left: 0;
+  width: 822px;
+  height: 60px;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+  background: #0904460d;
+  padding-left: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: #000000;
+}
+
+.field-input::placeholder {
+  color: #000000;
+}
+
+.phone-field {
+  position: absolute;
+  top: 300px;
+  left: 754px;
+  width: 821px;
+  height: 95px;
+  border-radius: 12px;
+}
+
+.aadhaar-field {
+  position: absolute;
+  top: 416px;
+  left: 753px;
+  width: 822px;
+  height: 95px;
+  border-radius: 12px;
+}
+
+.pan-field {
+  position: absolute;
+  top: 532px;
+  left: 753px;
+  width: 822px;
+  height: 95px;
+  border-radius: 12px;
+}
+
+.email-field {
+  position: absolute;
+  top: 648px;
+  left: 753px;
+  width: 822px;
+  height: 95px;
+  border-radius: 12px;
+}
+
+.register-btn {
+  position: absolute;
+  top: 820px;
+  left: 753px;
+  width: 833px;
+  height: 80px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  background: #9c0001;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-wrapper {
+  position: absolute;
+  top: 977px;
+  left: 1024px;
+  width: 339px;
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-circle {
+  position: relative;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background: #09044633;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-circle::before {
+  content: "";
+  position: absolute;
+  width: 71px;
+  height: 71px;
+  border-radius: 50%;
+  background: #09044633;
+}
+
+.social-circle img {
+  position: relative;
+  width: 63.46px;
+  height: 63.46px;
+  z-index: 1;
+} */
