@@ -5,6 +5,18 @@
   font-family: Poppins, sans-serif;
 }
 
+.hamburger{
+  display: none;
+}
+
+.mobile-btn {
+  display: none;
+}
+
+.mobile-register {
+  display: none;
+}
+
 .navbar {
   width: 100%;
   height: 85px;
@@ -81,41 +93,66 @@
 
 @media (max-width: 650px) {
   .navbar {
+    padding: 0 20px;
+    height: 70px;
+  }
+
+  .hamburger {
+    display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    padding: 25px 20px;
-    height: auto;
-    gap: 20px;
+    gap: 5px;
+    cursor: pointer;
   }
 
-  .navbar-left {
-    width: 100%;
-    justify-content: flex-start;
-  }
-
-  .logo {
-    width: 150px;
-    height: auto;
+  .hamburger span {
+    width: 25px;
+    height: 3px;
+    background: #ffffff;
+    border-radius: 2px;
   }
 
   .navbar-menu {
+    position: absolute;
+    top: 70px;
+    left: 0;
     width: 100%;
+    background: #440001;
     flex-direction: column;
-    align-items: flex-start;
-    gap: 14px;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+    display: none;
+  }
+
+  .navbar-menu.open {
+    display: flex;
   }
 
   .navbar-menu li {
-    font-size: 18px;
+    font-size: 16px;
   }
 
-  .navbar-menu li.active::after {
-    bottom: -4px;
+  .desktop-btn {
+    display: none;
+  }
+
+  .mobile-register {
+    display: block;
+  }
+
+  .mobile-btn {
+    display: flex;
+    margin-top: 15px;
   }
 
   .register-btn {
-    margin-top: 25px;
-    align-self: flex-start;
+    font-size: 13px;
+    padding: 5px 6px 5px 14px;
+  }
+
+  .arrow-circle {
+    width: 26px;
+    height: 26px;
   }
 }
 
