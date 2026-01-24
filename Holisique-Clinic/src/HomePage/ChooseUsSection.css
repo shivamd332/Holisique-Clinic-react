@@ -1,0 +1,172 @@
+.chooseus-section {
+  width: 100%;
+  padding: 50px 0 ;
+  background: #ffffff;
+  font-family: Poppins, sans-serif;
+}
+
+.chooseus-container {
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.chooseus-content {
+  flex: 1;
+}
+
+.chooseus-tag {
+  font-size: 13px;
+  font-weight: 500;
+  color: #440001;
+}
+
+.chooseus-title {
+  font-size: 35px;
+  font-weight: 600;
+  margin: 20px 0 20px;
+  line-height: 1.2;
+}
+
+.chooseus-desc {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #272727;
+  max-width: 496px;
+  margin-bottom: 40px;
+}
+
+.chooseus-stats {
+  display: flex;
+  gap: 40px;
+}
+
+.stat-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-right: 40px;
+  border-right: 1px solid #c7c9cb;
+}
+
+.stat-box:last-child {
+  border-right: none;
+  padding-right: 0;
+}
+
+.stat-no {
+  font-weight: 400;
+  font-size: 13px;
+  color: #9c0001;
+  margin-bottom: 6px;
+}
+
+.stat-box h3 {
+  font-size: 35px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.stat-box p {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 1.4;
+}
+
+.chooseus-image {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.chooseus-image img {
+  width: 100%;
+  max-width: 480px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+@media (max-width: 650px) {
+  .chooseus-container {
+    flex-direction: column;
+    padding: 0 20px;
+    gap: 30px;
+    text-align: center;
+  }
+
+  .chooseus-title {
+    font-size: 26px;
+  }
+
+  .chooseus-desc {
+    max-width: 100%;
+    font-size: 13px;
+  }
+
+  .chooseus-stats {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .stat-box {
+    border-right: none;
+    padding-right: 0;
+    align-items: center;
+  }
+
+  .stat-box h3 {
+    font-size: 28px;
+  }
+
+  .stat-box p {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .chooseus-image {
+    justify-content: center;
+  }
+
+  .chooseus-image img {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 651px) and (max-width: 850px) {
+  .chooseus-container {
+    gap: 30px;
+    padding: 0 30px;
+  }
+
+  .chooseus-title {
+    font-size: 30px;
+  }
+
+  .chooseus-desc {
+    font-size: 13px;
+  }
+
+  .chooseus-stats {
+    gap: 25px;
+  }
+
+  .stat-box {
+    padding-right: 25px;
+  }
+
+  .stat-box h3 {
+    font-size: 30px;
+  }
+
+  .stat-box p {
+    font-size: 22px;
+  }
+
+  .chooseus-image img {
+    max-width: 400px;
+  }
+}
