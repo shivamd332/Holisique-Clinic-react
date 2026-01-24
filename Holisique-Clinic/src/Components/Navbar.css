@@ -112,16 +112,23 @@
   }
 
   .navbar-menu {
-    position: absolute;
+    position: fixed;
     top: 70px;
     left: 0;
     width: 100%;
+    height: calc(100vh - 70px);
     background: #440001;
     flex-direction: column;
     align-items: center;
     gap: 20px;
     padding: 20px 0;
     display: none;
+    z-index: 999;
+  }
+
+  .no-scroll {
+    overflow: hidden;
+    height: 100vh;
   }
 
   .navbar-menu.open {

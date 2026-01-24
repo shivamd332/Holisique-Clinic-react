@@ -11,7 +11,10 @@ const Navbar = () => {
         <img src={logo} alt="Holisique Logo" className="logo" />
       </div>
 
-      <div className="hamburger" onClick={() => setOpen(!open)}>
+      <div className="hamburger" onClick={() => {
+        setOpen(!open);
+        document.body.classList.toggle("no-scroll");
+      }}>
         <span></span>
         <span></span>
         <span></span>
