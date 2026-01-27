@@ -1,0 +1,90 @@
+.offers-section {
+  padding: 80px 40px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.offers-section h2 {
+  font-size: 34px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.offers-text {
+  font-weight: 400;
+  max-width: 945px;
+  margin: 0 auto 40px;
+  font-size: 13px;
+  color: #333;
+  line-height: 1.6;
+}
+
+.offers-inputs {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 40px;
+}
+
+.offers-inputs input {
+  width: 320px;
+  height: 45px;
+  padding: 0 20px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.offers-btn {
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 40px;
+  padding: 4px 3px 4px 15px;
+  background: #9c0001;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.offers-arrow {
+  width: 32px;
+  height: 32px;
+  background: white;
+  color: black;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  .offers-section h2 {
+    font-size: 24px;
+  }
+
+  .offers-text {
+    font-size: 12px;
+    padding: 0 10px;
+  }
+
+  .offers-btn {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 900px) {
+  .offers-inputs {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .offers-inputs input {
+    width: 100%;
+    max-width: 320px;
+  }
+}
