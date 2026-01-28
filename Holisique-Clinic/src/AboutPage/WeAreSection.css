@@ -1,0 +1,173 @@
+.weare-section {
+  padding: 40px 100px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.weare-tag {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #440001;
+  margin-bottom: 20px;
+}
+
+.weare-line {
+  width: 30px;
+  height: 2px;
+  background: #9c0001;
+}
+
+.weare-title {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.weare-subtitle {
+  max-width: 495px;
+  margin: 0 auto 40px;
+  font-size: 13px;
+  color: #272727;
+  line-height: 1.6;
+}
+
+.weare-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  text-align: left;
+}
+
+.weare-left {
+  padding-left: 50px;
+  max-width: 530px;
+  flex: 1;
+}
+
+.weare-item {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.weare-icon {
+  min-width: 48px;
+  height: 48px;
+  background: #9c0001;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.weare-icon img {
+  width: 22px;
+  height: 22px;
+}
+
+.weare-item h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.weare-item p {
+  font-weight: 400;
+  font-size: 13px;
+  color: #272727;
+  line-height: 1.4;
+}
+
+.weare-right img {
+  width: 450px;
+  height: auto;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+@media (max-width: 650px) {
+  .weare-section {
+    padding: 40px 15px;
+  }
+
+  .weare-tag {
+    font-size: 12px;
+    gap: 10px;
+  }
+
+  .weare-title {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+
+  .weare-subtitle {
+    font-size: 12px;
+    margin-bottom: 30px;
+  }
+
+  .weare-content {
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+  }
+
+  .weare-left {
+    padding-left: 0;
+    max-width: 100%;
+  }
+
+  .weare-item {
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .weare-item h4 {
+    font-size: 16px;
+  }
+
+  .weare-item p {
+    font-size: 12px;
+  }
+
+  .weare-right img {
+    width: 100%;
+    border-radius: 12px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .weare-section {
+    padding: 60px 40px;
+  }
+
+  .weare-title {
+    font-size: 26px;
+  }
+
+  .weare-subtitle {
+    max-width: 600px;
+    font-size: 13px;
+  }
+
+  .weare-content {
+    gap: 30px;
+  }
+
+  .weare-left {
+    padding-left: 0;
+    max-width: 100%;
+  }
+
+  .weare-item h4 {
+    font-size: 18px;
+  }
+
+  .weare-right img {
+    width: 350px;
+  }
+}

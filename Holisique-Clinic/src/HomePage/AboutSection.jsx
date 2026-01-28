@@ -1,5 +1,6 @@
 import "./AboutSection.css";
-import medicineImg from "../assets/home-about.png"; 
+import medicineImg from "../assets/Home/home-about.png"; 
+
 
 const AboutSection = () => {
   return (

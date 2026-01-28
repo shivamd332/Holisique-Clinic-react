@@ -1,11 +1,11 @@
 import "./ServiceSection.css";
+import hairImg from "../assets/Home/hair.png";
+// import skinImg from "../assets/Home/skin.png";
+import pcosImg from "../assets/Home/pcos.png";
+import thyroidImg from "../assets/Home/thyroid.png";
+import migraineImg from "../assets/Home/migraine.png";
+import psoriasisImg from "../assets/Home/psoriasis.png";
 
-import hairImg from "../assets/hair.png";
-// import skinImg from "../assets/skin.png";
-import pcosImg from "../assets/pcos.png";
-import thyroidImg from "../assets/thyroid.png";
-import migraineImg from "../assets/migraine.png";
-import psoriasisImg from "../assets/psoriasis.png";
 
 const ServicesSection = () => {
   return (

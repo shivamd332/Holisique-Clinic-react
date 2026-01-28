@@ -1,6 +1,7 @@
 import "./HeroSection.css";
-import doctorImg from "../assets/home-banner.png";
+import doctorImg from "../assets/Home/home-banner.png";
 import whatsappIcon from "../assets/whatsapp.png";
+
 
 const HeroSection = () => {
   return (

@@ -1,5 +1,6 @@
 import "./OffersSection.css";
 
+
 const OffersSection = () => {
   return (
     <section className="offers-section">

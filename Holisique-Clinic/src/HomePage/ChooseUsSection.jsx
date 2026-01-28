@@ -1,5 +1,6 @@
 import "./ChooseUsSection.css";
-import doctorImg from "../assets/chooseUs.png";
+import doctorImg from "../assets/Home/chooseUs.png";
+
 
 const ChooseUs = () => {
   return (

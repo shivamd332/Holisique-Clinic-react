@@ -1,0 +1,111 @@
+.wedo-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 100px 40px;
+  font-family: "Poppins", sans-serif;
+  gap: 50px;
+}
+
+.wedo-left {
+  max-width: 560px;
+}
+
+.wedo-tag {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #440001;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.wedo-line {
+  width: 30px;
+  height: 2px;
+  background: #9c0001;
+}
+
+.wedo-title {
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 15px;
+}
+
+.wedo-text {
+  font-weight: 400;
+  font-size: 14px;
+  color: #272727;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.wedo-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 7px 15px;
+  background: #9c0001;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.wedo-btn span {
+  font-size: 16px;
+}
+
+.wedo-right img {
+  width: 500px;
+  height: auto;
+  border-radius: 18px;
+  object-fit: cover;
+}
+
+@media (max-width: 650px) {
+  .wedo-section {
+    flex-direction: column;
+    padding: 40px 15px;
+    text-align: center;
+  }
+
+  .wedo-left {
+    max-width: 100%;
+  }
+
+  .wedo-tag {
+    justify-content: center;
+  }
+
+  .wedo-title {
+    font-size: 22px;
+  }
+
+  .wedo-text {
+    font-size: 12px;
+  }
+
+  .wedo-right img {
+    width: 100%;
+    border-radius: 14px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .wedo-section {
+    padding: 60px 40px;
+    gap: 30px;
+  }
+
+  .wedo-right img {
+    width: 360px;
+  }
+
+  .wedo-title {
+    font-size: 26px;
+  }
+}

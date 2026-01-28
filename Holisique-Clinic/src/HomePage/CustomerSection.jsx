@@ -1,7 +1,7 @@
 import "./CustomerSection.css";
+import girlImg from "../assets/Home/girlcustomer.png";
+import boyImg from "../assets/Home/boycustomer.png";
 
-import girlImg from "../assets/girlcustomer.png";
-import boyImg from "../assets/boycustomer.png";
 
 const CustomerSection = () => {
   return (

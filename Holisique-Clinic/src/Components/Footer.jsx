@@ -1,14 +1,13 @@
 import "./Footer.css";
-
 import logo from "../assets/logo.png";
 import phoneIcon from "../assets/phone.png";
 import mailIcon from "../assets/mail.png";
 import locationIcon from "../assets/location.png";
 import mapImage from "../assets/map.png";
-
 import whatsapp from "../assets/whatsapp.png";
 import facebook from "../assets/facebook.png";
 import instagram from "../assets/insta.png";
+
 
 const Footer = () => {
   return (

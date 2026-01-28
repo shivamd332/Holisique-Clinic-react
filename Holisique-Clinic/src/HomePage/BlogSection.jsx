@@ -1,7 +1,8 @@
 import "./BlogSection.css";
-import img1 from "../assets/blog1.png";
-import img2 from "../assets/blog2.png";
-import img3 from "../assets/blog3.png";
+import img1 from "../assets/Home/blog1.png";
+import img2 from "../assets/Home/blog2.png";
+import img3 from "../assets/Home/blog3.png";
+
 
 const BlogSection = () => {
   return (

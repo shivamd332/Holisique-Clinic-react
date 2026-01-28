@@ -1,9 +1,10 @@
 import "./FollowSection.css";
-import img1 from "../assets/follow1.png";
-import img2 from "../assets/follow2.png";
-import img3 from "../assets/follow3.png";
-import img4 from "../assets/follow4.png";
-import img5 from "../assets/follow5.png";
+import img1 from "../assets/Home/follow1.png";
+import img2 from "../assets/Home/follow2.png";
+import img3 from "../assets/Home/follow3.png";
+import img4 from "../assets/Home/follow4.png";
+import img5 from "../assets/Home/follow5.png";
+
 
 const FollowSection = () => {
   return (

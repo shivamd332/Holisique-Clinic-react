@@ -1,7 +1,8 @@
 import "./ProcessSection.css";
-import consultIcon from "../assets/icon-file.png";
-import doctorIcon from "../assets/icon-doctor.png";
-import followIcon from "../assets/icon-user.png";
+import consultIcon from "../assets/Home/icon-file.png";
+import doctorIcon from "../assets/Home/icon-doctor.png";
+import followIcon from "../assets/Home/icon-user.png";
+
 
 const ProcessSection = () => {
   return (
