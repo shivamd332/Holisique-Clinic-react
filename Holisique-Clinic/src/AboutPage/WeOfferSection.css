@@ -67,9 +67,17 @@
 
 @media (max-width: 650px) {
   .weoffer-section {
-    flex-direction: column;
+    flex-direction: column-reverse;
     padding: 40px 15px;
     text-align: center;
+  }
+
+  .weoffer-left {
+    order: -1;
+  }
+
+  .weoffer-right {
+    order: 1;
   }
 
   .weoffer-tag {

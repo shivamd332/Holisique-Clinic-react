@@ -1,0 +1,64 @@
+.treatment-hero {
+  width: 100%;
+  height: 480px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.treatment-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.25);
+}
+
+.treatment-hero-overlay {
+  position: relative;
+  text-align: center;
+  max-width: 900px;
+  padding: 0 20px;
+  color: white;
+}
+
+.treatment-hero-overlay h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.treatment-hero-overlay p {
+  max-width:780px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+@media (max-width: 600px) {
+  .treatment-hero {
+    height: 250px;
+  }
+
+  .treatment-hero-overlay h1 {
+    font-size: 22px;
+  }
+
+  .treatment-hero-overlay p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 900px) {
+  .treatment-hero {
+    height: 300px;
+  }
+
+  .treatment-hero-overlay h1 {
+    font-size: 28px;
+  }
+}
